@@ -121,7 +121,7 @@ function Products() {
   <div className="relative w-full h-60 overflow-hidden">
     <div className="h-max card">
       <img
-        src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705234589/flipper.com.bd_git4mq.jpg"
+        src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705306665/selectelwireless.com_yr0lzr.jpg"
         alt="selectel wireless"
         className="object-cover object-top w-full"
       />
@@ -155,7 +155,7 @@ function Products() {
   <div className="relative w-full h-60 overflow-hidden">
     <div className="h-max card">
       <img
-        src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705234588/noirbd.com_nsw8fp.jpg"
+        src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705235914/noirbd.com_nhjwgs.jpg"
         alt="noir"
         className="object-cover object-top w-full"
       />
