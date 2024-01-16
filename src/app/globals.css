@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-/*  */
+
 htm{
   scroll-behavior: smooth;
 }
@@ -27,7 +27,7 @@ button {
 button span {
   position: relative;
   color: #fff;
-  fot-size: 20px;
+  font-size: 20px;
   font-family: Arial;
   letter-spacing: 8px;
   z-index: 1;
@@ -322,25 +322,26 @@ button:hover .liquid{
   
 }
 
-//
-
+/* Before */
 @keyframes animate {
   0% {
-      transform: rotate(0deg);
+    transform: translate(-50%, -75%) rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: translate(-50%, -75%) rotate(360deg);
   }
 }
 
-@keyframes animate2 {
+/* After */
+@keyframes animate {
   0% {
-      transform: rotate(360deg);
+    transform: translate(-50%, -75%) rotate(0deg);
   }
   100% {
-      transform: rotate(0deg);
+    transform: translate(-50%, -75%) rotate(360deg);
   }
 }
+
 
 
 .popular__container {
