@@ -13,28 +13,24 @@ import Services from "@/Components/Services/Services";
 import Testimonials from "@/Components/Testimonials/Testimonials";
 import StarsCanvas from "@/Components/ThemeScene/ThemeScene";
 
-
 export default function Home() {
   return (
     <main>
-      <div className="relative z-0" >
-      <StarsCanvas/>
-     <Banner/>
-     <Services/>
-     <About/>
-     <MissionVission/>
-     <Products/>
-     <ProvidedService/>
-     <Testimonials/>
-     <Faq/>
-     <Ceo/>
-   
-     <Partners/>
-     <Contact/>
+      <div className="relative z-0">
+        <StarsCanvas />
+        <Banner />
+        <Services />
+        <About />
+        <MissionVission />
+        <Products />
+        <ProvidedService />
+        <Testimonials />
+        <Faq />
+        <Ceo />
+
+        <Partners />
+        <Contact />
       </div>
-    
-  
-   
     </main>
   );
 }

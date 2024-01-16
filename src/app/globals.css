@@ -2,16 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-htm{
+htm {
   scroll-behavior: smooth;
 }
-
-
-
-
-
 
 button {
   position: relative;
@@ -40,13 +33,13 @@ button .liquid {
   width: 200px;
   height: 150px;
   background: #4973ff;
-  box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
-  transition: .5s;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
 }
 
 button .liquid::after,
 button .liquid::before {
-  content: '';
+  content: "";
   width: 200%;
   height: 200%;
   position: absolute;
@@ -57,20 +50,18 @@ button .liquid::before {
 }
 
 button .liquid::before {
-  
   border-radius: 45%;
   background: rgba(20, 20, 20, 1);
   animation: animate 5s linear infinite;
 }
 
 button .liquid::after {
-  
   border-radius: 40%;
-  background: rgba(20, 20, 20, .5);
+  background: rgba(20, 20, 20, 0.5);
   animation: animate 10s linear infinite;
 }
 
-button:hover .liquid{
+button:hover .liquid {
   top: -120px;
 }
 
@@ -111,7 +102,7 @@ button:hover .liquid{
 }
 
 .button-85:before {
-  content:"";
+  content: "";
   background: linear-gradient(
     30deg,
     #ff0000,
@@ -150,34 +141,34 @@ button:hover .liquid{
   }
 }
 
-.block:before, .block:after {
-	content: '';
-	position: absolute;
-	left: -2px;
-	top: -2px;
-	background: linear-gradient(45deg,  
-		#0000ff, #00ff00,#ffff00, #ff0000);
-	background-size: 400%;
-	width: calc(100% + 4px);
-	height: calc(100% + 4px);
-	z-index: -1;
-	animation: steam 20s linear infinite;
+.block:before,
+.block:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, #0000ff, #00ff00, #ffff00, #ff0000);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
 }
 
 @keyframes steam {
-	0% {
-		background-position: 0 0;
-	}
-	50% {
-		background-position: 400% 0;
-	}
-	100% {
-		background-position: 0 0;
-	}
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 .block:after {
-	filter: blur(50px);
+  filter: blur(50px);
 }
 
 .button-85:after {
@@ -191,8 +182,6 @@ button:hover .liquid{
   top: 0;
   border-radius: 10px;
 }
-
-
 
 .swiper {
   width: 800px;
@@ -247,7 +236,7 @@ button:hover .liquid{
   stroke-dasharray: 125.6;
   transform: rotate(-90deg);
 }
-  .circular-btn {
+.circular-btn {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -265,7 +254,7 @@ button:hover .liquid{
   background-color: #ff5555; /* Change background color on hover */
 }
 
-//testimonials img
+/* //testimonials img */
 
 .squares {
   position: relative;
@@ -279,7 +268,7 @@ button:hover .liquid{
 
 .squares span:nth-child(1) {
   position: absolute;
- 
+
   width: 25%;
   height: 52%;
   border: 2px solid white;
@@ -287,8 +276,6 @@ button:hover .liquid{
   transition: 0.5s;
   animation: animate 7s linear infinite;
 }
-
-
 
 .squares span:nth-child(2) {
   position: absolute;
@@ -311,15 +298,12 @@ button:hover .liquid{
   animation: animate 9s linear infinite;
 }
 
-
-
 .content {
   position: relative;
   padding: 40px 60px;
   color: #fff;
   text-align: center;
   transition: 0.5s;
-  
 }
 
 /* Before */
@@ -342,8 +326,6 @@ button:hover .liquid{
   }
 }
 
-
-
 .popular__container {
   padding-top: 1rem;
 }
@@ -357,34 +339,26 @@ button:hover .liquid{
   overflow: hidden;
 }
 
-
-
-
-.card  img {
+.card img {
   transition: transform 5s ease;
 }
 
-.card:hover  img {
+.card:hover img {
   transform: translateY(-78%);
 }
-.card2  img {
+.card2 img {
   transition: transform 5s ease;
 }
 
-.card2:hover  img {
+.card2:hover img {
   transform: translateY(-75%);
 }
-.card4  img {
+.card4 img {
   transition: transform 5s ease;
 }
 
-.card4:hover  img {
+.card4:hover img {
   transform: translateY(-75%);
 }
 
 /* CSS */
-
-
-
-
-

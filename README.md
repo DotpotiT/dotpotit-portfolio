@@ -1,6 +1,5 @@
 ## nginx cofig for portfolio.dotpotit.com
 
-
     server{
             listen 80;
             server_name portfolio.dotpotit.com www.portfolio.dotpotit.com;
