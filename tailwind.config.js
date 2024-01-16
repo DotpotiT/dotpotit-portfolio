@@ -14,5 +14,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require("daisyui")],
-}
+  plugins: [
+    require('postcss-nesting'),
+    require('daisyui'),
+    // other plugins if needed
+  ],
+};
