@@ -4,7 +4,7 @@ import React from 'react'
 function Navbar() {
   return (
     <div>
-        <div className="navbar hidden md:hidden  flex lg:flex fixed z-10 bg-black opacity-85 px-2  md:px-2  lg:px-[200px]">
+        <div className="navbar hidden md:hidden  flex lg:flex fixed z-10 bg-black opacity-85 px-2  md:px-2  lg:px-[120px]">
             
             <div className="flex flex-row justify-between gap-2 md:gap-[50vh] lg:gap-[120vh] ">
 
