@@ -27,8 +27,8 @@ function Banner() {
   return (
     <div>
       <div className="hero min-h-screen">
-        <div className="hero-content flex flex-col-reverse lg:flex-row-reverse text-white justify-between gap-4 lg:gap-44">
-          <Image width={800} height={600}
+        <div className="hero-content flex flex-col-reverse lg:flex-row-reverse text-white justify-between gap-4 lg:gap-32">
+          <Image width={400} height={300}
             src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704366008/b-removebg-preview_nsrxcs.png"
             alt="Dotpot iT Banner bg image"
           />
