@@ -51,10 +51,10 @@ function Testimonials() {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % testimonialData.length);
     }, 3500);
-
+  
     return () => clearInterval(interval);
-  }, []);
-
+  }, [testimonialData.length]); 
+  
   const onAutoplayTimeLeft = (s, time, progress) => {
     progressCircle.current.style.setProperty('--progress', 1 - progress);
   
