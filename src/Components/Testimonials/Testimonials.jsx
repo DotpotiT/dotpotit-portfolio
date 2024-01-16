@@ -72,13 +72,13 @@ function Testimonials() {
 
   return (
     <div className='flex flex-col md:flex-row lg:flex-row justify-center gap-2 md:gap-4 lg:gap-9 py-6 px-2'>
-      <div className=" squares px-3">
+      <div className=" px-3">
         <div className='hidden lg:block'>
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <div className="contents absolute z-25">
+        <div className="contents absolute z-10">
           <a href="#"><img className='rounded-full ' src='https://res.cloudinary.com/dgohi0iqm/image/upload/v1705144832/aj1omaubfqj5kecvmeza.jpg' alt="Clients Review- Dotpot iT" /></a>
         </div>
       </div>

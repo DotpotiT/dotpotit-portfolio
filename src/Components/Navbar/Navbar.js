@@ -1,38 +1,24 @@
 
 import React from 'react'
-
 function Navbar() {
   return (
     <div>
-        <div className="navbar hidden lg:flex fixed z-10 pt-11 px-[250px]">
+        <div className="navbar flex lg:flex fixed z-10 bg-black opacity-85 px-2  lg:px-[250px]">
             
             <div className="flex flex-row justify-between gap-[100vh] ">
 
-            <div className="">
-            <a href="/" className="text-2xl font-semibold text-orange-500">
-            <div className="loader">
-            <div className="loader-bg">
-            <span><img src="https://raw.githubusercontent.com/kleberbaum/theme/main/wg-logo.svg" alt="Flowers in Chania" className="kuhl"/></span>
-            </div>
-            <div className="drops">
-              <div className="drop1"></div>
-              <div className="drop2"></div>  
-            </div>
-          </div>
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-            <defs>
-              <filter id="liquid">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="liquid" />
-              </filter>
-            </defs>
-          </svg>
-                  </a>
-            </div>
+            <a href='/' className="w-[250px] font-bold  ">
+              <img
+                src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704543228/vkahrznyuobgcnmnltq9.png"
+                alt="Dotpot iT Logo"
+              />
+            </a>
 
-          <a href="/" className="btn-3d inline-block px-4 py-2 rounded-xl border-2 border-transparent bg-gradient-to-r from-orange-200 to-blue-200 transform hover:rotate-y-3 hover:rotate-x-3 transition-transform -translate-y-20 duration-300">
-            Download Portfolio
+          <a href="https://dotpotit.com/" className=" btn-outline inline-block px-4 py-2 rounded-xl border-2 border-transparent text-black font-bold bg-gradient-to-r from-slate-600 to-blue-400 transform hover:rotate-y-3 hover:rotate-x-3 flex-row items-center">
+          
+           <span className='block'>Visit our Website </span> 
           </a>
+          
   </div>
 </div>
     </div>

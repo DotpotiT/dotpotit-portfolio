@@ -10,13 +10,15 @@ import Partners from "@/Components/Partners/Partners";
 import Products from "@/Components/Products/Products";
 import ProvidedService from "@/Components/ProvidedService/ProvidedService";
 import Services from "@/Components/Services/Services";
-import TeamMembers from "@/Components/TeamMeambers/TeamMeambers";
 import Testimonials from "@/Components/Testimonials/Testimonials";
+import StarsCanvas from "@/Components/ThemeScene/ThemeScene";
 
 
 export default function Home() {
   return (
     <main>
+      <div className="relative z-0" >
+      <StarsCanvas/>
      <Banner/>
      <Services/>
      <About/>
@@ -29,6 +31,8 @@ export default function Home() {
    
      <Partners/>
      <Contact/>
+      </div>
+    
   
    
     </main>

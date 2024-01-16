@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
-import wavejson from '../../../public/wave.svg'
+import { FaDownload } from 'react-icons/fa6';
+// import EarthCanvas from '../Canvas/Earth';
+
+const pdfPath = '/assets/dotpotit-portfolio.pdf'; // Adjust the path accordingly
 
 function Banner() {
   const bannerText =
-    "Welcome to Dotpot iT, your premier destination for comprehensive digital solutions. We specialize in responsive web development, user-friendly app creation, and streamlined software development. Integrating AI for intelligent solutions and focusing on captivating UI/UX designs, we ensure a seamless digital presence. Boost your brand's visibility with our strategic digital marketing services. Partner with Dotpot iT for cutting-edge solutions, and let's shape the future of your digital journey together.";
+    "your premier destination for comprehensive digital solutions. We specialize in responsive web development, user-friendly app creation, and streamlined software development. Integrating AI for intelligent solutions and focusing on captivating UI/UX designs, we ensure a seamless digital presence. Boost your brand's visibility with our strategic digital marketing services. Partner with Dotpot iT for cutting-edge solutions, and let's shape the future of your digital journey together."; // Your text here
 
   const [showMore, setShowMore] = useState(false);
 
@@ -15,33 +18,22 @@ function Banner() {
 
   const downloadPDF = () => {
     const link = document.createElement('a');
-    link.href = 'https://res.cloudinary.com/dgohi0iqm/image/upload/v1705236989/flipper.com.bd__rszjsr.jpg'; // Replace with the actual path to your PDF file
-    link.download = 'portfolio.pdf';
+    link.href = pdfPath;
+    link.download = 'dotpotit-portfolio.pdf';
     link.click();
   };
 
   return (
     <div>
-      <div
-        className="hero min-h-screen"
-        style={{
-          backgroundImage: `url('https://tech-ai.vercel.app/_next/static/media/banner-one-bg.ad96c151.png')`,
-          backgroundSize: 'cover',
-        }}
-      >
-        <div className="flex flex-col-reverse lg:flex-row-reverse text-white justify-between gap-4 lg:gap-64">
+      <div className="hero min-h-screen">
+        <div className="hero-content flex flex-col-reverse lg:flex-row-reverse text-white justify-between gap-4 lg:gap-44">
           <img
             src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704366008/b-removebg-preview_nsrxcs.png"
             alt="Dotpot iT Banner bg image"
           />
-          <div className='px-2'>
-            <h1 className="w-[250px] font-bold transform translate-y-2 lg:translate-y-9 ">
-              <img
-                src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704543228/vkahrznyuobgcnmnltq9.png"
-                alt="Dotpot iT Logo"
-              />
-            </h1>
-            <p className="py-6  max-w-xl">
+          <div className="px-2">
+            <h1 className="py-2 text-xl lg:text-4xl">Welcome to Dotpot iT,</h1>
+            <p className="max-w-xl">
               {displayText}
               {bannerText.length > 200 && (
                 <span
@@ -52,12 +44,10 @@ function Banner() {
                 </span>
               )}
             </p>
-         
-            <button className="px-5" onClick={downloadPDF}>
-              <span> Portfolio</span>
+            <button className="px-5 text-sm mt-6" onClick={downloadPDF}>
+              <span className='flex flex-row  items-center'> Portfolio <span  className='text-lg' ><FaDownload/>  </span></span>
               <div className="liquid"></div>
             </button>
- 
           </div>
         </div>
       </div>

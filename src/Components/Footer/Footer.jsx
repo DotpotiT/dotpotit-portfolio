@@ -75,7 +75,7 @@
         <h1 className="w-[25vh] lg:w-[250px] font-bold transform translate-y-5"><img src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704543228/vkahrznyuobgcnmnltq9.png" alt="" /></h1>
       <h4 className='transform translate-x-16 -translate-y-4'>Providing reliable tech since 2019</h4>
     </aside> 
-    <nav className="md:place-self-center md:justify-self-end">
+    <nav className="place-self-center md:justify-self-end">
       <div className="grid grid-flow-col gap-4">
       
       <a href="mailto:help@dotpotit.com"> <AiOutlineMail className='text-2xl'/></a>
