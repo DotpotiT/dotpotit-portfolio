@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import { FaDownload } from 'react-icons/fa6';
 // import EarthCanvas from '../Canvas/Earth';
@@ -27,7 +28,7 @@ function Banner() {
     <div>
       <div className="hero min-h-screen">
         <div className="hero-content flex flex-col-reverse lg:flex-row-reverse text-white justify-between gap-4 lg:gap-44">
-          <img
+          <Image width={800} height={600}
             src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704366008/b-removebg-preview_nsrxcs.png"
             alt="Dotpot iT Banner bg image"
           />

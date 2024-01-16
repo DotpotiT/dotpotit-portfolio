@@ -1,6 +1,7 @@
   import React from 'react'
   import { FaFacebook, FaLink, FaLinkedin, FaLocationArrow, FaMobile, FaPhone, FaTwitter, FaVoicemail, FaWhatsapp } from 'react-icons/fa6'
   import { AiOutlineMail } from "react-icons/ai";
+import Image from 'next/image';
   function Footer() {
     return (
       <div className='mt-12'>
@@ -72,7 +73,7 @@
   </footer> 
   <footer className="footer  py-4 border-t  text-white px-2 lg:px-[120px] border-base-300">
     <aside className="items-center grid-flow-row">
-        <h1 className="w-[25vh] lg:w-[250px] font-bold transform translate-y-5"><img src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704543228/vkahrznyuobgcnmnltq9.png" alt="" /></h1>
+        <h1 className="w-[25vh] lg:w-[250px] font-bold transform translate-y-5"><Image width={260} height={240} src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704543228/vkahrznyuobgcnmnltq9.png" alt="" /></h1>
       <h4 className='transform translate-x-16 -translate-y-4'>Providing reliable tech since 2019</h4>
     </aside> 
     <nav className="place-self-center md:justify-self-end">

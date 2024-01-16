@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import Image from 'next/image';
 
 function Testimonials() {
   const progressCircle = useRef(null);
@@ -63,7 +64,7 @@ function Testimonials() {
     progressContent.current.innerHTML = `
       <div class="avatar">
         <div class="rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-          <img class="rounded-full" src="${currentAvatar}" alt="User Avatar" />
+          <Image width={20} height={20} className="rounded-full" src="${currentAvatar}" alt="User Avatar" />
         </div>
       </div>
     `;
@@ -79,7 +80,7 @@ function Testimonials() {
           <span></span>
         </div>
         <div className="contents absolute z-10">
-          <a href="#"><img className='rounded-full ' src='https://res.cloudinary.com/dgohi0iqm/image/upload/v1705144832/aj1omaubfqj5kecvmeza.jpg' alt="Clients Review- Dotpot iT" /></a>
+          <a href="#"><Image width={400} height={400} className='rounded-full ' src='https://res.cloudinary.com/dgohi0iqm/image/upload/v1705144832/aj1omaubfqj5kecvmeza.jpg' alt="Clients Review- Dotpot iT" /></a>
         </div>
       </div>
       <div>

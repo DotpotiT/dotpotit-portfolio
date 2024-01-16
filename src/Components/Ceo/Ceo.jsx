@@ -1,13 +1,14 @@
 import React from 'react'
 import { MdOutlineEmail } from "react-icons/md";
 import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
+import Image from 'next/image';
 function Ceo() {
   const emailAddress = 'zakir@dotpotit.com';
   const facebookLink = 'https://www.facebook.com/shakil.sab.9';
   const whatsappNumber = '+880 1994-743242';
   return (
     <div className='flex flex-col lg:flex-row justify-evenly gap-8 mt-10 max-w-7xl mx-auto px-2'>
-     <img className='' src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705147719/exzsd1nhnaz0z4fh9h9e.jpg" alt="CEO & Founder-Dotpot iT" />
+     <Image width={600} height={300} className='' src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705147719/exzsd1nhnaz0z4fh9h9e.jpg" alt="CEO & Founder-Dotpot iT" />
      <div>
         <h4 className='text-blue-700 text-lg'>Message From Founder</h4>
         <h2 className='text-2xl text-gray-300'>A Warm Hello to all,</h2>
