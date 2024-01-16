@@ -32,7 +32,8 @@ function Banner() {
             width={400}
             height={300}
             src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704366008/b-removebg-preview_nsrxcs.png"
-            alt="Dotpot iT Banner bg image"
+            alt="Dotpot iT Banner bg image"  
+            loading="eager"
           />
           <div className="px-2">
             <h1 className="py-2 text-xl lg:text-4xl">Welcome to Dotpot iT,</h1>

@@ -11,7 +11,7 @@ function Ceo() {
      <Image width={600} height={300} className='' src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705147719/exzsd1nhnaz0z4fh9h9e.jpg" alt="CEO & Founder-Dotpot iT" />
      <div>
         <h4 className='text-blue-700 text-lg'>Message From Founder</h4>
-        <h2 className='text-2xl text-gray-300'>A Warm Hello to all,</h2>
+        <h2 className='text-2xl text-white'>A Warm Hello to all,</h2>
         <p className='text-gray-400'>As the CEO & Founder of Dotpot iT, I spearhead a talented team delivering innovative IT solutions across diverse sectors. With over a decade of industry immersion, my passion lies in harnessing technology's potential to streamline business operations, steering companies towards their goals. My leadership ethos emphasizes collaboration, empowering teams to drive decisions and surpass client expectations, fostering enduring partnerships.
 <br />
 
@@ -21,27 +21,37 @@ Beyond my professional journey, I'm committed to industry advancement, continual
 <h3 className='text-blue-700 text-xl pt-4'>Zakir Hossain </h3>
 <h4 className='text-blue-600 text-sm'>CEO & Founder,Dotpot iT</h4>
 <div className='flex flex-row gap-3 pt-3'>
-<a href={`mailto:${emailAddress}`} className='rounded-full border-dashed border-2 p-2'>
-  <MdOutlineEmail className='rounded-full text-gray-300 text-4xl p-2' />
+<a
+  href={`mailto:${emailAddress}`}
+  className='rounded-full border-dashed border-2 p-2'
+  aria-label="Email Us"
+>
+  <MdOutlineEmail className='rounded-full text-white text-4xl p-2' />
 </a>
-      
 
-      <div className='rounded-full border-dashed border-2 p-2'>
-  <a href={facebookLink} target='_blank' rel='noopener noreferrer' className='text-gray-500'>
-    <FaFacebook className='rounded-full text-gray-300 text-4xl p-2' />
+<a
+  href={facebookLink}
+  target='_blank'
+  rel='noopener noreferrer'
+  className='rounded-full border-dashed border-2 p-2'
+  aria-label="Visit our Facebook Page"
+>
+  <FaFacebook className='rounded-full text-white text-4xl p-2' />
+</a>
+
+<a
+  href={`https://wa.me/${whatsappNumber}`}
+  className='rounded-full border-dashed border-2 p-2'
+  aria-label="Chat with us on WhatsApp"
+>
+  <FaWhatsapp className='rounded-full text-white text-4xl p-2' />
+</a>
+
+  <a href='https://uk.linkedin.com/in/zakir-hossain-dotpotit?trk=profile-badg' className='rounded-full border-dashed border-2 p-2' aria-label="Connect with us on LinkedIn">
+    <FaLinkedin className='rounded-full text-white text-4xl  p-2' />
   </a>
 </div>
 
-
-<a href={`https://wa.me/${whatsappNumber}`} className='rounded-full border-dashed border-2 p-2'>
-  <FaWhatsapp className='rounded-full text-gray-300 text-4xl p-2' />
-</a>
-
-      <a href='https://uk.linkedin.com/in/zakir-hossain-dotpotit?trk=profile-badg' className='rounded-full border-dashed border-2 p-2'>
-        <FaLinkedin className='rounded-full text-gray-300 text-4xl  p-2' />
-      </a>
-     
-    </div>  
      </div>
     </div>
   )

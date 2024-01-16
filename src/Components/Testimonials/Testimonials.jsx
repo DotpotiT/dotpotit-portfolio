@@ -76,11 +76,7 @@ function Testimonials() {
   return (
     <div className="flex flex-col md:flex-row lg:flex-row justify-center gap-2 md:gap-4 lg:gap-9 py-6 px-2">
       <div className=" px-3">
-        <div className="hidden lg:block">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+     
         <div className="contents absolute z-10">
           <a href="#">
             <Image
@@ -110,28 +106,28 @@ function Testimonials() {
           className="max-w-[40vh] md:max-w-[48vh] lg:max-w-3xl "
         >
           {testimonialData.map((testimonial, index) => (
-            <SwiperSlide
-              key={index}
-              className="rounded-lg"
-              style={{
-                backgroundImage: testimonial.backgroundImage,
-                backgroundSize: "cover",
-                backgroundColor: testimonial.backgroundColor,
-              }}
-            >
-              <div className="text-start p-3 lg:p-16">
-                <h2 className="text-blue-400">Testimonials</h2>
-                <h1 className="text-2xl py-2 text-gray-300">
-                  Our Client's Feedback
-                </h1>
-                <p className=" w-[90%] text-gray-300">{testimonial.feedback}</p>
-                <div className="pt-16">
-                  <h4 className="text-gray-300">{testimonial.author}</h4>
-                  <p className="text-gray-300">{testimonial.location}</p>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
+  <SwiperSlide
+    key={index}
+    className="rounded-lg"
+    style={{
+      backgroundImage: testimonial.backgroundImage,
+      backgroundSize: "cover",
+      backgroundColor: testimonial.backgroundColor,
+    }}
+  >
+    <div className="text-start p-3 lg:p-16">
+      <h2 className="text-blue-400">Testimonials</h2>
+      <h1 className="text-2xl py-2 text-gray-300">
+        Our Client's Feedback
+      </h1>
+      <p className="w-[90%] text-gray-300">{testimonial.feedback}</p>
+      <div className="pt-16">
+        <p className="text-gray-300 font-bold">{testimonial.author}</p>
+        <p className="text-gray-300">{testimonial.location}</p>
+      </div>
+    </div>
+  </SwiperSlide>
+))}
           <div
             className="autoplay-progress rounded-full w-20 h-20"
             slot="container-end"

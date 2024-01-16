@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa6";
 import { AiOutlineMail } from "react-icons/ai";
 import Image from "next/image";
+
 function Footer() {
   return (
     <div className="mt-12">
@@ -24,36 +25,24 @@ function Footer() {
         }}
       >
         <nav className="flex flex-col">
-          <header className="footer-title">Company</header>
-          <a href="https://dotpotit.com" className="link link-hover">
-            Home
-          </a>
-          <a href="https://dotpotit.com/about" className="link link-hover">
-            About us
-          </a>
-          <a href="https://dotpotit.com/contact" className="link link-hover">
-            Contact
-          </a>
+          <h2 className="footer-title">Company</h2>
+          <a href="https://dotpotit.com">Home</a>
+          <a href="https://dotpotit.com/about">About us</a>
+          <a href="https://dotpotit.com/contact">Contact</a>
         </nav>
         <nav className="flex flex-col">
-          <header className="footer-title">Services</header>
-          <a
-            href="https://dotpotit.com/web-development/landing-page"
-            className="link link-hover"
-          >
+          <h2 className="footer-title">Services</h2>
+          <a href="https://dotpotit.com/web-development/landing-page">
             Web Development
           </a>
-          <a
-            href="https://dotpotit.com/key-features/it-support/#cloud-computing"
-            className="link link-hover"
-          >
+          <a href="https://dotpotit.com/key-features/it-support/#cloud-computing">
             IT Support
           </a>
-          <a className="link link-hover">Marketing</a>
+          <a href="/">Marketing</a>
         </nav>
         <nav>
-          <header className="footer-title">Email</header>
-          <div className=" flex flex-col gap-3 ">
+          <h2 className="footer-title">Email</h2>
+          <div className="flex flex-col gap-3">
             <div>
               <a href="mailto:help@dotpotit.com">help@dotpotit.com</a> <br />
               <a href="mailto:hr@dotpotit.com">hr@dotpotit.com</a> <br />
@@ -63,8 +52,8 @@ function Footer() {
         </nav>
 
         <nav>
-          <header className="footer-title">Contact</header>
-          <div className=" flex flex-row gap-3 ">
+          <h2 className="footer-title">Contact</h2>
+          <div className="flex flex-row gap-3">
             <div className="flex flex-col gap-3">
               <a
                 href="https://dotpotit.com"

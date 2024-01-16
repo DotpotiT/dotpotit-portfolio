@@ -122,7 +122,7 @@ const Contact = () => {
                 <div className="flex justify-center mt-3 lg:mt-6">
                   <input
                     type="submit"
-                    className="btn py-3 px-6 rounded-lg border-none bg-[#386fd4] w-full font-bold text-white hover:bg-[#4178dc]"
+                    className="btn py-3 px-6 rounded-lg border-none bg-blue-600 w-full font-bold text-white hover:bg-blue-700"
                     style={{ outline: "none", border: "none" }}
                   />
                 </div>

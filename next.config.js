@@ -1,7 +1,14 @@
 // next.config.js
 const nextConfig = {
   images: {
-    domains: ["portfolio.dotsoft.buzz", "res.cloudinary.com"],
+    remotePatterns: [
+      {
+        hostname: "portfolio.dotsoft.buzz",
+      },
+      {
+        hostname: "res.cloudinary.com",
+      },
+    ],
   },
 };
 

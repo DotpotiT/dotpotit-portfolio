@@ -47,9 +47,9 @@ function Products() {
               <p className="text-lg text-semibold text-white">
                 Web Application
               </p>
-              <a
+              <a   alt="RMJ Autos Project"
                 href="https://www.rmjautos.com/"
-                className="text-2xl text-gray-300"
+                className="text-2xl text-purple-600" aria-label="project live site link"
               >
                 <FaEye />
               </a>
@@ -94,9 +94,9 @@ function Products() {
               <p className="text-lg text-semibold text-white">
                 Mobile Application
               </p>
-              <a
+              <a   alt="Premo Project"
                 href="https://www.rmjautos.com/"
-                className="text-2xl text-gray-300"
+                className="text-2xl text-purple-600" aria-label="project live site link"
               >
                 <FaEye />
               </a>
@@ -143,7 +143,7 @@ function Products() {
               </p>
               <a
                 href="https://flipper.com.bd"
-                className="text-2xl text-gray-300"
+                className="text-2xl text-purple-600" aria-label="project live site link"   alt="Flipper Project"
               >
                 <FaEye />
               </a>
@@ -189,7 +189,7 @@ function Products() {
               </p>
               <a
                 href="https://www.selectelwireless.com/"
-                className="text-2xl text-gray-300"
+                className="text-2xl text-purple-600" aria-label="project live site link" alt="selectelwireless project"
               >
                 <FaEye />
               </a>
@@ -234,7 +234,7 @@ function Products() {
               <p className="text-lg text-semibold text-white">
                 Web Application
               </p>
-              <a href="https://noirbd.com/" className="text-2xl text-gray-300">
+              <a href="https://noirbd.com/" className="text-2xl text-purple-600" aria-label="project live site link" alt="noir" >
                 <FaEye />
               </a>
             </div>
@@ -280,7 +280,7 @@ function Products() {
               </p>
               <a
                 href="https://www.forefront-bd.com/"
-                className="text-2xl text-gray-300"
+                className="text-2xl text-purple-600" aria-label="project live site link" alt="Forefont"
               >
                 <FaEye />
               </a>
@@ -328,7 +328,7 @@ function Products() {
               </p>
               <a
                 href="https://authentikabd.com/"
-                className="text-2xl text-gray-300"
+                className="text-2xl text-purple-600" aria-label="project live site link" alt="Authentika"
               >
                 <FaEye />
               </a>
@@ -374,7 +374,7 @@ function Products() {
               </p>
               <a
                 href="https://evincegroupbd.com/"
-                className="text-2xl text-gray-300"
+                className="text-2xl text-purple-600" aria-label="project live site link" alt="evincegroupbd"
               >
                 <FaEye />
               </a>
@@ -418,7 +418,7 @@ function Products() {
               <p className="text-lg text-semibold text-white">
                 Web Application
               </p>
-              <a href="https://luliz.com/" className="text-2xl text-gray-300">
+              <a href="https://luliz.com/" className="text-2xl text-purple-600" aria-label="project live site link" alt=" Luliz">
                 <FaEye />
               </a>
             </div>

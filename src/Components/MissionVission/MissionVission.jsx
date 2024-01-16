@@ -17,7 +17,7 @@ function MissionVision() {
           <h2 className="text-xl text-blue-300">Our Vision</h2>
           <p className="text-gray-400">
             Our vision is to be a well-established software development company
-            to serve the SMEs, Enterprises and Startups.We know that Customer’s
+            to serve the SMEs, Enterprises and Startups. We know that Customer’s
             growth is our growth, so we commit our customers to help in
             achieving their business goals. We believe in work with accuracy and
             best quality. In the IT sector, we wish to be recognized as the
@@ -26,13 +26,28 @@ function MissionVision() {
         </div>
       </div>
       <div className="px-2">
-        <video loop="1" autoPlay muted width="520" height="240">
-          <source
-            src="https://res.cloudinary.com/dzqxgr4lr/video/upload/v1704705755/xwhhxprltqz8uv5wzpas.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
+        <div style={{ position: "relative", width: "520px", height: "240px" }}>
+          <video loop="1" autoPlay muted width="100%" height="100%">
+            <source
+              src="https://res.cloudinary.com/dzqxgr4lr/video/upload/v1704705755/xwhhxprltqz8uv5wzpas.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <div
+            style={{
+              position: "absolute",
+              bottom: 0,
+              background: "rgba(0, 0, 0, 0.7)",
+              color: "white",
+              width: "100%",
+              padding: "10px",
+              textAlign: "center",
+            }}
+          >
+           Our Mission & Vision
+          </div>
+        </div>
       </div>
     </div>
   );
