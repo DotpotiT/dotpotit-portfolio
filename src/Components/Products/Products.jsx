@@ -28,7 +28,7 @@ function Products() {
             <div className="h-max card">
               <Image
                 width={400}
-                height={300}
+                height={300} loading="lazy"
                 src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705235913/rmjautos.com_le3k7f.jpg"
                 alt="rmj-autos"
                 className="object-cover object-top w-full"
@@ -75,7 +75,7 @@ function Products() {
             <div className="h-max card">
               <Image
                 width={400}
-                height={300}
+                height={300} loading="lazy"
                 src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705235915/mypremo.com_dzheom.jpg"
                 alt="premo"
                 className="object-cover object-top w-full"
@@ -122,7 +122,7 @@ function Products() {
             <div className="h-max card">
               <Image
                 width={400}
-                height={300}
+                height={300} loading="lazy"
                 src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705236989/flipper.com.bd__rszjsr.jpg"
                 alt="flipper"
                 className="object-cover object-top w-full"
@@ -168,7 +168,7 @@ function Products() {
             <div className="h-max card">
               <Image
                 width={400}
-                height={300}
+                height={300} loading="lazy"
                 src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705306665/selectelwireless.com_yr0lzr.jpg"
                 alt="selectel wireless"
                 className="object-cover object-top w-full"
@@ -215,7 +215,7 @@ function Products() {
             <div className="h-max card">
               <Image
                 width={400}
-                height={300}
+                height={300} loading="lazy"
                 src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705235914/noirbd.com_nhjwgs.jpg"
                 alt="noir"
                 className="object-cover object-top w-full"
@@ -259,7 +259,7 @@ function Products() {
             <div className="h-max card">
               <Image
                 width={400}
-                height={300}
+                height={300} loading="lazy"
                 src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705235913/forefront-bd.com_cgrlsa.jpg"
                 alt="fore-front"
                 className="object-cover object-top w-full"
@@ -306,7 +306,7 @@ function Products() {
             <div className="h-max card">
               <Image
                 width={400}
-                height={300}
+                height={300} loading="lazy"
                 src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705236629/authentika.com_k45o92.jpg"
                 alt="authentika"
                 className="object-cover object-top w-full"
@@ -353,7 +353,7 @@ function Products() {
             <div className="h-max card">
               <Image
                 width={400}
-                height={300}
+                height={300} loading="lazy"
                 src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705236630/evincegroupbd.com_mwvfna.jpg"
                 alt="evincegroupbd"
                 className="object-cover object-top w-full"
@@ -399,7 +399,7 @@ function Products() {
             <div className="h-max card">
               <Image
                 width={400}
-                height={300}
+                height={300} loading="lazy"
                 src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705235918/luliz.com_lkgndp.jpg"
                 alt="luiz"
                 className="object-cover object-top w-full"
