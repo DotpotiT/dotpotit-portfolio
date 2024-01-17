@@ -81,7 +81,7 @@ function Testimonials() {
           <a href="#">
             <Image
               width={400}
-              height={400}
+              height={400} loading="lazy"
               className="rounded-full "
               src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705144832/aj1omaubfqj5kecvmeza.jpg"
               alt="Clients Review- Dotpot iT"
