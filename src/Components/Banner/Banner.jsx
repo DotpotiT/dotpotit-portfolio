@@ -30,10 +30,10 @@ function Banner() {
         <div className="hero-content flex flex-col-reverse lg:flex-row-reverse text-white justify-between gap-4 lg:gap-32">
           <Image
             width={400}
-            height={300}
+            height={300} 
             src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704366008/b-removebg-preview_nsrxcs.png"
             alt="Dotpot iT Banner bg image"  
-            loading="eager"
+            loading="lazy"
           />
           <div className="px-2">
             <h1 className="py-2 text-xl lg:text-4xl">Welcome to Dotpot iT,</h1>
