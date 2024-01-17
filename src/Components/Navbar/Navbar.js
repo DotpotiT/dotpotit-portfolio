@@ -9,6 +9,7 @@ function Navbar() {
             <Image
               width={250}
               height={250}
+              loading="lazy"
               src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704543228/vkahrznyuobgcnmnltq9.png"
               alt="Dotpot iT Logo"
             />
